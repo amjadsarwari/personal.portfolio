@@ -34,7 +34,7 @@
 }
 
 .infocontainer {
-   background-color: rgb(241, 9, 191);
+   /* background-color: rgb(241, 9, 191); */
     height: 78vh;
     width: 82vw;
     margin: 140px auto;
@@ -65,4 +65,15 @@
 
 .devpic img {
     width: 266px;
+}
+
+.button {
+    margin-top: 34px;
+    
+}
+
+.buttons button {
+    padding: 9px 14px;
+    border-radius: 22px;
+    
 }
