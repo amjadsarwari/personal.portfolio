@@ -96,3 +96,19 @@
     background-color: white;
     color: aqua;
 }
+
+.contactform {
+    padding: 0 35px;
+    padding-top: 144px;
+    font-family: 'Fira Sans', sans-serif;
+    
+}
+
+.contactform h1 {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.contactform div {
+    padding: 27px 0;
+}
