@@ -80,6 +80,11 @@
     margin-top: 34px;
 
 }
+.btn-sm {
+    font-size: 14px;
+    padding: 10px 19px;
+    margin: 12px 0;
+}
 
 .btn {
     padding: 9px 14px;
@@ -136,4 +141,16 @@
 #form-check input{
     width: 24px;
     margin: 3px 0;
+}
+.blogitem {
+    margin: 20px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.blogcontainer h1 {
+    font-family: 'Fira Sans', sans-serif;
+    margin: 23px;
+}
+
+.blogitem p {
+    font-family: 'Source Sans Pro', monospace;
 }
