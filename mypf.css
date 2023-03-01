@@ -7,11 +7,13 @@
 }
 
 .sidebar {
+    position: absolute;
     background-color: rgb(145, 145, 145);
 
     /* width: 434px; */
     font-family: 'Fira Sans', sans-serif;
     height: 100vh;
+    transition: transform 0.3s ease-in;
 }
 
 .sidebar nav {
@@ -203,14 +205,21 @@
     top: 10px;
     left: 10px;
 }
+.ham {
+    margin-top: 10px;
+}
 .cross{
-    margin-left: 130px;
+    margin-left: 155px;
+    margin-top: 8px;
 
 }
 
 @media (max-width: 1000px) {
     *{
         /* background-color: rgb(253, 124, 124); */
+    }
+    .devpic{
+        display: none;
     }
      /* .sidebar{
         transform: translate(-443px, 0px);
