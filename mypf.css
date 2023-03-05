@@ -34,6 +34,7 @@
 .main {
     /* background-color: yellow; */
     min-width: 90vw;
+    margin-left: 50px;
 }
 
 .container {
