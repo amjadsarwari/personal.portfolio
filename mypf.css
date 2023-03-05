@@ -51,6 +51,7 @@
 }
 
 .devinfo {
+    font-size: 16px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -58,20 +59,25 @@
 }
 
 .hello {
-    font-size: 65px;
+    font-size: 3em;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
 .name {
-    font-size: 50px;
+    font-size: 3em;
     font-weight: bold;
     font-family: 'Fira Sans', sans-serif;
 
 }
 
 .about {
-    font-size: 40px;
+    font-size: 2.5em;
 
+}
+.moreabout {
+    font-size: 2em;
+    margin-top: 23px;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 
@@ -148,7 +154,11 @@
 }
 .blogitem {
     margin: 20px;
+   
     font-family: 'Fira Sans', sans-serif;
+}
+.blogcontainer {
+    margin: 88px;
 }
 .h1 {
     font-family: 'Fira Sans', sans-serif;
@@ -157,6 +167,9 @@
 
 .p {
     font-family: 'Source Sans Pro', monospace;
+}
+.intro {
+     margin: 88px;
 }
 .intro h2 {
     font-family: 'Fira Sans', sans-serif;
@@ -219,8 +232,17 @@
     *{
         /* background-color: rgb(253, 124, 124); */
     }
+    .devinfo{
+        font-size: 10px;
+    }
     .devpic{
         display: none;
+    }
+    .intro, .blogcontainer, .contactform {
+        margin: 8px;
+    }
+    .btn {
+        font-size: 6px;
     }
      /* .sidebar{
         transform: translate(-443px, 0px);
