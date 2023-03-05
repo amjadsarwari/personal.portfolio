@@ -241,9 +241,9 @@
     .intro, .blogcontainer, .contactform {
         margin: 8px;
     }
-    .btn {
+    /* .btn {
         font-size: 10px;
-    }
+    } */
      /* .sidebar{
         transform: translate(-443px, 0px);
         position: absolute;
